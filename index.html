@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Memofichas</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="tarjetas">
+        <div id="t1" class="tarjeta"></div>
+        <div id="t2" class="tarjeta"></div>
+        <div id="t3" class="tarjeta"></div>
+        <div id="t4" class="tarjeta"></div>
+        <div id="t5" class="tarjeta"></div>
+    </div> 
+	</div>
+    <form class="form" action="">
+        <div class="texts">
+            <div class="typetext_layout textbox">
+                <h1>Texto cara delantera</h1>
+                <textarea rows="9" maxlength="350" required cols="40"  class="layout" name="layout"  id="layout" 
+                placeholder="Ingrese info clave" spellcheck="true"></textarea>         
+            </div>
+            <div class="typetext_underside textbox">
+                <h1>Texto cara trasera</h1>
+                <textarea rows="9" maxlength="350" required cols="40" class="underside" name="underside" id="underside" 
+                placeholder="Ingrese info valor" spellcheck="true"></textarea>
+            </div>
+        </div>
+        
+        <div class="intro">
+            <h1>Elegir targeta de izquierda a derecha</h1>
+            <select id="select" name="OS">
+                
+                <option selected value="1"> Elige una tarjeta </option>              
+                    <option value="1">1</option> 
+                    <option value="2">2</option> 
+                    <option value="3">3</option> 
+                    <option value="4">4</option> 
+                    <option value="5">5</option> 
+            </select>
+            <input type="button" class="enviador" Value="Enviar">
+        </div>
+    </form>
+    
+   
+    <script src="domjs.js"></script>
+
+</body>
+
+</html>
+
+
