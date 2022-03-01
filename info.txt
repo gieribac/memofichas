@@ -1,0 +1,4 @@
+Esta pagina web estatica, trabajada con html, css y js consta de 5 memofichas cuyo contenido frontal puede ser utilizado como clave para recordar el contenido posterior.
+Para configurar sus contenidos se usa el elemento "select" para escoger la tarjeta, contandolas ascendentemente partiendo de la izquierda. 
+Presione "enviar" cuando haya establecido valiendose de las cajas de texto. 
+Haga click encima de una tarjeta para voltearla, durará por la parte trasera, en reposo 10 segundos.
